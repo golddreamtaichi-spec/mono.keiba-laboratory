@@ -1,1 +1,36 @@
+body {
+  font-family: sans-serif;
+  background-color: #ffffff;
+  color: #111;
+}
 
+header {
+  padding: 24px;
+  background:
+    radial-gradient(circle at 20% 30%, #000 12%, transparent 13%),
+    radial-gradient(circle at 70% 40%, #000 10%, transparent 11%),
+    radial-gradient(circle at 40% 70%, #000 14%, transparent 15%);
+  background-size: 200px 200px;
+}
+
+
+:root {
+  --green: #1f7a3f; /* 深めの緑（ギャンブル感抑制） */
+}
+
+h1 {
+  color: var(--green);
+}
+
+a {
+  color: var(--green);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  border-bottom: 2px solid var(--green);
+}
