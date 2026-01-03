@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>2026年注目馬① ゴールデンオーク｜モーモー競馬研究所</title>
+  <meta name="description" content="血統表を用いて将来性を分析。ゴールデンオークを母父ハービンジャーの成功例から論じる。">
+
+  <style>
+    :root {
+      --green: #1f7a3f;
+      --black: #111;
+      --gray: #666;
+    }
+
+    body {
+      font-family: sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 16px;
+      line-height: 1.9;
+      color: var(--black);
+      background: #fff;
+    }
+
+    header {
+      padding: 24px;
+      margin-bottom: 40px;
+      background:
+        radial-gradient(circle at 20% 30%, #000 10%, transparent 11%),
+        radial-gradient(circle at 70% 40%, #000 8%, transparent 9%),
+        radial-gradient(circle at 40% 70%, #000 12%, transparent 13%);
+      background-size: 220px 220px;
+    }
+
+    h1 {
+      color: var(--green);
+      margin-bottom: 8px;
+    }
+
+    nav a {
+      color: var(--green);
+      margin-right: 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    h2 {
+      margin-top: 56px;
+      border-bottom: 2px solid var(--green);
+      padding-bottom: 4px;
+    }
+
+    h3 {
+      margin-top: 32px;
+      color: var(--green);
+    }
+
+    .point {
+      border-left: 4px solid var(--green);
+      padding-left: 12px;
+      margin: 24px 0;
+      background: #f8f8f8;
+    }
+
+    .bloodline {
+      background: #f5f5f5;
+      padding: 16px;
+      font-family: monospace;
+      margin: 16px 0;
+    }
+
+    .note {
+      font-size: 0.9em;
+      color: var(--gray);
+      margin-top: 32px;
+    }
+
+    footer {
+      margin-top: 64px;
+      padding-top: 16px;
+      border-top: 1px solid #ccc;
+      font-size: 0.85em;
+      color: var(--gray);
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>モーモー競馬研究所</h1>
+  <nav>
+    <a href="../index.html">トップ</a>
+    <a href="../targets-dangers/index.html">次走狙い馬</a>
+    <a href="../pog/">POG・2歳馬</a>
+  </nav>
+</header>
+
+<main>
+
+<h2>2026年に注目したい馬①</h2>
+<h3>ゴールデンオーク（2歳）</h3>
+
+<p>
+2026年を見据えて注目している馬が、<strong>ゴールデンオーク</strong>である。
+血統・背景・比較対象のいずれを取っても、
+将来性を語る材料がそろった一頭だと考えている。
+</p>
+
+<h2>注目ポイント①｜全兄オメガギネスの存在</h2>
+
+<div class="point">
+<p>
+ゴールデンオークは、<strong>オメガギネスの全弟</strong>にあたる。
+</p>
+
+<p>
+オメガギネスは中山ダート1800mで2連勝。
+その後は1600m路線へ舵を切り、
+5歳時には60kgを背負ってグリーンチャンネルCを制している。
+</p>
+</div>
+
+<p>
+重要なのは、距離・条件に幅を持たせられる血統構成である点だ。
+この点は弟であるゴールデンオークにも当てはまる可能性がある。
+</p>
+
+<h2>注目ポイント②｜血統セレクトと厩舎</h2>
+
+<p>
+オーナーは長谷川祐司氏。
+血統博士・竹内啓安氏のセレクト馬と見られる。
+</p>
+
+<p>
+入厩先は<strong>池江泰寿厩舎</strong>。
+血統のポテンシャルを引き出せる環境が整っている点は心強い。
+</p>
+
+<h2>血統的背景の比較</h2>
+
+<h3>◆ ゴールデンオーク</h3>
+<div class="bloodline">
+父　：ロゴタイプ  
+母　：〇〇  
+母父：Harbinger
+</div>
+
+<h3>◆ ベラジオオペラ</h3>
+<div class="bloodline">
+父　：ロードカナロア  
+母　：エアルーティーン  
+母父：Harbinger
+</div>
+
+<h2>母父ハービンジャーの役割</h2>
+
+<p>
+母父ハービンジャーは、
+スピードを削るのではなく<strong>底力を補強する</strong>方向に出やすい。
+</p>
+
+<p>
+ベラジオオペラではその特性が芝2000mで開花した。
+ゴールデンオークでも、父の持続力を支える形で
+安定したパフォーマンスを期待できる。
+</p>
+
+<h2>今後の検証視点</h2>
+
+<ul>
+  <li>母父ハービンジャーの芝・ダート別成績</li>
+  <li>距離別（1600〜2000m）の傾向</li>
+  <li>父系との組み合わせ別成績</li>
+</ul>
+
+<p>
+これらを整理することで、
+ゴールデンオークの最適条件がより明確になるだろう。
+</p>
+
+</main>
+
+<footer>
+<p>
+※ 本記事は血統・過去事例をもとにした個人の見解です。  
+特定の結果や的中を保証するものではありません。
+</p>
+</footer>
+
+</body>
+</html>
