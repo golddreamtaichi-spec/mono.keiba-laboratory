@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>注目馬血統分析｜モーモー競馬研究所</title>
+  <style>
+    body {
+      font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+      background: #fff;
+      color: #000;
+      line-height: 1.7;
+    }
+
+    h1 {
+      border-bottom: 4px solid #2e8b57;
+      padding-bottom: 6px;
+    }
+
+    h2 {
+      margin-top: 40px;
+      border-left: 8px solid #000;
+      padding-left: 10px;
+    }
+
+    .horse-info {
+      margin: 10px 0;
+      font-weight: bold;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+    }
+
+    th, td {
+      border: 1px solid #999;
+      padding: 6px;
+      text-align: center;
+    }
+
+    th {
+      background: #000;
+      color: #fff;
+    }
+
+    .reason {
+      background: #f5f9f6;
+      border-left: 6px solid #2e8b57;
+      padding: 12px;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>注目馬・血統分析</h1>
+
+<!-- ================= 馬① ================= -->
+<h2>① 馬名：〇〇〇〇</h2>
+
+<div class="horse-info">
+  父：〇〇〇〇　｜　母：〇〇〇〇
+</div>
+
+<h3>5代血統表</h3>
+<table>
+  <tr>
+    <th>父系</th>
+    <th>母系</th>
+  </tr>
+  <tr>
+    <td>父</td>
+    <td>母</td>
+  </tr>
+  <tr>
+    <td>父父</td>
+    <td>母父</td>
+  </tr>
+  <tr>
+    <td>父父父</td>
+    <td>母父父</td>
+  </tr>
+  <tr>
+    <td>父父母</td>
+    <td>母父母</td>
+  </tr>
+  <tr>
+    <td>父母父</td>
+    <td>母母父</td>
+  </tr>
+</table>
+
+<div class="reason">
+  <strong>推奨理由</strong><br>
+  ・ここに血統的な強調ポイントを書く  
+  ・父系の特徴、母父の傾向  
+  ・距離・馬場適性、将来性など  
+</div>
+
+<!-- ================= 馬② ================= -->
+<h2>② 馬名：〇〇〇〇</h2>
+
+<div class="horse-info">
+  父：〇〇〇〇　｜　母：〇〇〇〇
+</div>
+
+<h3>5代血統表</h3>
+<table>
+  <tr>
+    <th>父系</th>
+    <th>母系</th>
+  </tr>
+  <tr><td>父</td><td>母</td></tr>
+  <tr><td>父父</td><td>母父</td></tr>
+  <tr><td>父父父</td><td>母父父</td></tr>
+  <tr><td>父父母</td><td>母父母</td></tr>
+  <tr><td>父母父</td><td>母母父</td></tr>
+</table>
+
+<div class="reason">
+  <strong>推奨理由</strong><br>
+  ・
+</div>
+
+<!-- ================= 馬③ ================= -->
+<h2>③ 馬名：〇〇〇〇</h2>
+
+<div class="horse-info">
+  父：〇〇〇〇　｜　母：〇〇〇〇
+</div>
+
+<h3>5代血統表</h3>
+<table>
+  <tr><th>父系</th><th>母系</th></tr>
+  <tr><td>父</td><td>母</td></tr>
+  <tr><td>父父</td><td>母父</td></tr>
+  <tr><td>父父父</td><td>母父父</td></tr>
+  <tr><td>父父母</td><td>母父母</td></tr>
+  <tr><td>父母父</td><td>母母父</td></tr>
+</table>
+
+<div class="reason">
+  <strong>推奨理由</strong><br>
+  ・
+</div>
+
+<!-- ================= 馬④ ================= -->
+<h2>④ 馬名：〇〇〇〇</h2>
+
+<div class="horse-info">
+  父：〇〇〇〇　｜　母：〇〇〇〇
+</div>
+
+<h3>5代血統表</h3>
+<table>
+  <tr><th>父系</th><th>母系</th></tr>
+  <tr><td>父</td><td>母</td></tr>
+  <tr><td>父父</td><td>母父</td></tr>
+  <tr><td>父父父</td><td>母父父</td></tr>
+  <tr><td>父父母</td><td>母父母</td></tr>
+  <tr><td>父母父</td><td>母母父</td></tr>
+</table>
+
+<div class="reason">
+  <strong>推奨理由</strong><br>
+  ・
+</div>
+
+</body>
+</html>
