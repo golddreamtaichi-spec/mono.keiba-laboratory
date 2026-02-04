@@ -1,41 +1,138 @@
 <!DOCTYPE html>
+
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>モーモー競馬研究所</title>
-  <meta name="description" content="血統を軸に競馬を理解するための研究サイト。次走狙い馬・危険な馬を理由付きでまとめています。">
-  <style>
-    body {
-      font-family: sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      line-height: 1.8;
-      padding: 0 16px;
-    }
-    h1, h2 {
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 4px;
-    }
-    nav a {
-      margin-right: 12px;
-    }
-    .speaker {
-      font-weight: bold;
-      margin-top: 16px;
-    }
-    .comment {
-      margin-left: 1em;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>モーモー競馬研究所</title>
+<meta name="description" content="血統を軸に競馬を理解するための研究サイト。次走狙い馬・危険な馬・POG情報をまとめています。">
+
+<style>
+/* =============================
+   背景（白紫チェック）
+============================= */
+body{
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  margin:0;
+  line-height:1.9;
+
+  background:
+    linear-gradient(45deg,#ece6ff 25%,transparent 25%),
+    linear-gradient(-45deg,#ece6ff 25%,transparent 25%),
+    linear-gradient(45deg,transparent 75%,#ece6ff 75%),
+    linear-gradient(-45deg,transparent 75%,#ece6ff 75%);
+  background-size:24px 24px;
+  background-color:#fff;
+}
+
+/* =============================
+   メイン枠
+============================= */
+.wrapper{
+  max-width:900px;
+  margin:50px auto;
+  background:#fff;
+  padding:40px;
+  border:4px solid #2e8b57;
+  border-radius:12px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* =============================
+   見出し
+============================= */
+h1{
+  text-align:center;
+  font-size:32px;
+  margin-bottom:8px;
+  border-bottom:5px solid #2e8b57;
+  padding-bottom:10px;
+}
+
+.subtitle{
+  text-align:center;
+  color:#555;
+  margin-bottom:30px;
+}
+
+/* =============================
+   ナビボタン
+============================= */
+nav{
+  text-align:center;
+  margin-bottom:40px;
+}
+
+nav a{
+  display:inline-block;
+  margin:8px;
+  padding:12px 22px;
+  background:#2e8b57;
+  color:#fff;
+  text-decoration:none;
+  border-radius:8px;
+  font-weight:bold;
+  transition:.2s;
+}
+
+nav a:hover{
+  background:#256f46;
+  transform:translateY(-2px);
+}
+
+/* =============================
+   カード（文章枠）
+============================= */
+.card{
+  border:2px solid #2e8b57;
+  padding:22px;
+  margin-top:25px;
+  border-radius:10px;
+  background:#fcfffd;
+}
+
+/* 会話 */
+.speaker{
+  font-weight:bold;
+  color:#2e8b57;
+  margin-top:14px;
+}
+
+.comment{
+  margin-left:1em;
+}
+
+/* フッター */
+footer{
+  margin-top:40px;
+  font-size:13px;
+  color:#666;
+  text-align:center;
+}
+</style>
+
 </head>
+
 <body>
 
+<div class="wrapper">
+
 <h1>モーモー競馬研究所</h1>
+<div class="subtitle">血統から競馬を読み解く研究ノート</div>
+
+<!-- =============================
+   ナビゲーション
+============================= -->
 
 <nav>
   <a href="targets-dangers/index.html">次走狙い馬・危険な馬</a>
   <a href="pog/">POG・2歳馬メモ</a>
 </nav>
+
+<!-- =============================
+   はじめに
+============================= -->
+
+<div class="card">
 
 <h2>はじめに</h2>
 
@@ -44,8 +141,7 @@
 </p>
 
 <p>
-徒然なるままに、<br>
-作成者ウッシーなりの競馬予想や考えを、<br>
+徒然なるままに、作成者ウッシーなりの競馬予想や考えを、  
 どこかにまとめておきたいと思うようになりました。
 </p>
 
@@ -58,30 +154,24 @@
 <div class="speaker">ウッシー</div>
 <div class="comment">
 当てることが目的、それは当然だろう。<br>
-自分の考え通りになったときは嬉しいし、<br>
-お金儲けもできる。<br><br>
-何より、自分の考えが間違っていなかったと<br>
-証明できるのが嬉しい。
+自分の考え通りになったときは嬉しいし、お金儲けもできる。<br>
+何より、自分の考えが間違っていなかったと証明できるのが嬉しい。
 </div>
 
 <div class="speaker">友達B</div>
 <div class="comment">
 ウッシーは、まだ競馬新聞なのか。<br>
-もう、それだけ馬のことを知っているなら<br>
-いらないでしょう。
+もう、それだけ馬のことを知っているならいらないでしょう。
 </div>
 
 <div class="speaker">ウッシー</div>
 <div class="comment">
-あっ、そうだ（笑）<br>
-確かにな～。<br>
-コメントは見るけれど、かさばるしな～
+あっ、そうだ（笑）確かにな～。コメントは見るけれど、かさばるしな～
 </div>
 
 <div class="speaker">友達B</div>
 <div class="comment">
-タブレットとかで、<br>
-何かにまとめて説明している方がいいんじゃない？
+タブレットとかで、何かにまとめて説明している方がいいんじゃない？
 </div>
 
 <div class="speaker">ウッシー</div>
@@ -90,28 +180,20 @@
 </div>
 
 <p>
-競馬場に行くとき、<br>
-事前に自分の考えをまとめておきたい。
+競馬場に行くとき、事前に自分の考えをまとめておきたい。  
+お気に入りの血統や「次は狙いたい」と思った馬を記録して、あとから正当に評価したい。
 </p>
 
 <p>
-お気に入りの血統や、<br>
-「次は狙いたい」と思った馬を記録して、<br>
-あとから正当に評価したい。
+そんな思いから、<strong>モーモー競馬研究所</strong>を始めてみました。
 </p>
 
-<p>
-そんな思いから、<br>
-<strong>モーモー競馬研究所</strong>を始めてみました。
-</p>
+</div>
 
-<hr>
+<footer>
+※ 当サイトの内容は個人の分析・見解によるものであり、特定の結果や的中を保証するものではありません。
+</footer>
 
-<p style="font-size: 0.9em; color: #555;">
-※ 当サイトの内容は個人の分析・見解によるものであり、<br>
-特定の結果や的中を保証するものではありません。
-</p>
-
+</div>
 </body>
 </html>
-
