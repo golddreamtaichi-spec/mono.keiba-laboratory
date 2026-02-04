@@ -2,172 +2,202 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>注目馬血統分析｜モーモー競馬研究所</title>
+<title>血統分析｜モーモー競馬研究所</title>
 
 <style>
-/* =========================
-   全体
-========================= */
-body {
-  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-  line-height: 1.7;
-  margin: 0;
+/* =============================
+   背景（白紫チェック）
+============================= */
+body{
+  font-family: Meiryo, sans-serif;
+  margin:0;
+  line-height:1.6;
 
-  /* 白紫チェック柄 */
   background:
-    linear-gradient(45deg, #eee 25%, transparent 25%),
-    linear-gradient(-45deg, #eee 25%, transparent 25%),
-    linear-gradient(45deg, transparent 75%, #eee 75%),
-    linear-gradient(-45deg, transparent 75%, #eee 75%);
-  background-size: 24px 24px;
-  background-position: 0 0, 0 12px, 12px -12px, -12px 0;
-  background-color: #ffffff;
+    linear-gradient(45deg,#ece6ff 25%,transparent 25%),
+    linear-gradient(-45deg,#ece6ff 25%,transparent 25%),
+    linear-gradient(45deg,transparent 75%,#ece6ff 75%),
+    linear-gradient(-45deg,transparent 75%,#ece6ff 75%);
+  background-size:24px 24px;
+  background-color:#fff;
 }
 
-/* 中央コンテンツ */
-.wrapper {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 30px;
-  background: #fff;
-  border: 4px solid #2e8b57;
-  border-radius: 10px;
+/* =============================
+   中央ラッパー
+============================= */
+.wrapper{
+  max-width:1100px;
+  margin:40px auto;
+  background:#fff;
+  padding:30px;
+  border:4px solid #2e8b57;
 }
 
-/* =========================
-   見出し
-========================= */
-h1 {
-  border-bottom: 5px solid #2e8b57;
-  padding-bottom: 8px;
+/* =============================
+   共通
+============================= */
+h1{
+  border-bottom:5px solid #2e8b57;
 }
 
-h2 {
-  margin-top: 50px;
-  border-left: 10px solid #2e8b57;
-  padding-left: 12px;
+.horse-card{
+  margin-top:50px;
+  padding:25px;
+  border:3px solid #2e8b57;
 }
 
-h3 {
-  margin-top: 18px;
+/* =============================
+   5代血統ツリー表
+============================= */
+.pedigree{
+  border-collapse:collapse;
+  margin-top:20px;
+  width:100%;
+  font-size:14px;
 }
 
-/* =========================
-   馬カード
-========================= */
-.horse-card {
-  border: 2px solid #2e8b57;
-  padding: 18px;
-  margin-top: 20px;
-  border-radius: 8px;
-  background: #fcfffd;
+.pedigree td{
+  border:1px solid #2e8b57;
+  padding:6px;
+  text-align:left;
 }
 
-.horse-info {
-  margin: 10px 0;
-  font-weight: bold;
+/* 牡馬 */
+.male td{
+  background:#000;
+  color:#fff;
 }
 
-/* =========================
-   血統表（緑罫線）
-========================= */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 16px 0;
-  border: 2px solid #2e8b57;
+/* 牝馬 */
+.female td{
+  background:#fff;
+  color:#000;
 }
 
-th, td {
-  border: 1px solid #2e8b57;
-  padding: 8px;
-  text-align: center;
+/* =============================
+   クロス表
+============================= */
+.cross{
+  margin-top:15px;
+  border-collapse:collapse;
+  width:60%;
 }
 
-th {
-  background: #2e8b57;
-  color: #fff;
+.cross th,.cross td{
+  border:1px solid #2e8b57;
+  padding:6px;
+  text-align:center;
 }
 
-/* =========================
-   推奨理由ボックス
-========================= */
-.reason {
-  background: #f3fbf6;
-  border: 2px solid #2e8b57;
-  border-left: 8px solid #2e8b57;
-  padding: 14px;
-  margin-top: 14px;
-  border-radius: 6px;
+.cross th{
+  background:#2e8b57;
+  color:#fff;
 }
 </style>
 </head>
 
-
 <body>
-
 <div class="wrapper">
 
 <h1>注目馬・血統分析</h1>
 
-
-<!-- ================= 馬① ================= -->
+<!-- ======================================
+   コナブリュワーズの2024（牡馬）
+====================================== -->
 <div class="horse-card">
 
-<h2>① 馬名：Tranquil Starの2024</h2>
+<h2>コナブリュワーズの2024（牡）</h2>
+父：アドマイヤマーズ × 母：コナブリュワーズ
 
-<div class="horse-info">
-父：Baaeed　｜　母：Tranquil Star
-</div>
-
-<h3>5代血統表</h3>
-<table>
-<tr><th>父系</th><th>母系</th></tr>
-<tr><td>父</td><td>母</td></tr>
-<tr><td>父父</td><td>母父</td></tr>
-<tr><td>父父父</td><td>母父父</td></tr>
-<tr><td>父父母</td><td>母父母</td></tr>
-<tr><td>父母父</td><td>母母父</td></tr>
+<table class="pedigree male">
+<tr>
+<td>アドマイヤマーズ</td>
+<td>ダイワメジャー</td>
+<td>サンデーサイレンス</td>
+<td>Halo</td>
+<td>Hail to Reason</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Cosmah</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Wishing Well</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>コナブリュワーズ</td>
+<td>キングカメハメハ</td>
+<td>Kingmambo</td>
+<td>Mr. Prospector</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>マンファス</td>
+<td></td>
+<td></td>
+</tr>
 </table>
 
-<div class="reason">
-<strong>推奨理由</strong><br>
-・ここに血統的な強調ポイントを書く<br>
-・父系の特徴、母父の傾向<br>
-・距離・馬場適性、将来性など
-</div>
+<h3>クロス</h3>
+<table class="cross">
+<tr><th>血統名</th><th>割合</th><th>クロス</th></tr>
+<tr><td>サンデーサイレンス</td><td>18.75%</td><td>3×4</td></tr>
+<tr><td>Mr. Prospector</td><td>9.38%</td><td>5×4</td></tr>
+</table>
 
 </div>
 
 
-<!-- ================= 馬② ================= -->
+<!-- ======================================
+   キラービューティの2024（牝馬）
+====================================== -->
 <div class="horse-card">
 
-<h2>② 馬名：インダクティの24</h2>
+<h2>キラービューティの2024（牝）</h2>
+父：ドレフォン × 母：キラービューティ
 
-<div class="horse-info">
-父：サートゥルナーリア　｜　母：インダクティ
-</div>
-
-<h3>5代血統表</h3>
-<table>
-<tr><th>父系</th><th>母系</th></tr>
-<tr><td>父</td><td>母</td></tr>
-<tr><td>父父</td><td>母父</td></tr>
-<tr><td>父父父</td><td>母父父</td></tr>
-<tr><td>父父母</td><td>母父母</td></tr>
-<tr><td>父母父</td><td>母母父</td></tr>
+<table class="pedigree female">
+<tr>
+<td>ドレフォン</td>
+<td>Gio Ponti</td>
+<td>Tale of the Cat</td>
+<td>Storm Cat</td>
+<td>Storm Bird</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Terlingua</td>
+<td></td>
+</tr>
+<tr>
+<td>キラービューティ</td>
+<td>ゼンノロブロイ</td>
+<td>サンデーサイレンス</td>
+<td>Halo</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>ローミンレイチェル</td>
+<td></td>
+<td></td>
+</tr>
 </table>
 
-<div class="reason">
-<strong>推奨理由</strong><br>
-・
 </div>
 
 </div>
-
-
-</div>
-
 </body>
 </html>
