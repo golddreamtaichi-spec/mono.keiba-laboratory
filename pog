@@ -1,36 +1,187 @@
-body {
-  font-family: sans-serif;
-  background-color: #ffffff;
-  color: #111;
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>POG指名リスト</title>
+
+<style>
+
+body{
+font-family:Meiryo, sans-serif;
+background:#f5f5f5;
+padding:30px;
 }
 
-header {
-  padding: 24px;
-  background:
-    radial-gradient(circle at 20% 30%, #000 12%, transparent 13%),
-    radial-gradient(circle at 70% 40%, #000 10%, transparent 11%),
-    radial-gradient(circle at 40% 70%, #000 14%, transparent 15%);
-  background-size: 200px 200px;
+h1{
+text-align:center;
+margin-bottom:30px;
 }
 
+/* 表 */
 
-:root {
-  --green: #1f7a3f; /* 深めの緑（ギャンブル感抑制） */
+table{
+border-collapse:collapse;
+width:100%;
+max-width:1200px;
+margin:auto;
+background:#00a651;
+color:#fff;
 }
 
-h1 {
-  color: var(--green);
+th,td{
+border:1px solid #004d26;
+padding:8px;
 }
 
-a {
-  color: var(--green);
-  text-decoration: none;
+th{
+background:#006837;
+font-size:16px;
 }
 
-a:hover {
-  text-decoration: underline;
+.rank{
+width:40px;
+text-align:center;
+font-weight:bold;
+background:#008a44;
 }
 
-h2 {
-  border-bottom: 2px solid var(--green);
+.horse{
+font-weight:bold;
+color:#fff;
 }
+
+.sire{
+color:#ffd800;
+font-weight:bold;
+}
+
+.dam{
+color:#9fe2ff;
+}
+
+.trainer{
+color:#fff;
+}
+
+.owner{
+color:#eee;
+}
+
+.comment{
+background:#00994d;
+color:#fff;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>POG指名候補リスト</h1>
+
+<table>
+
+<tr>
+<th>順位</th>
+<th>馬名</th>
+<th>父</th>
+<th>母</th>
+<th>厩舎</th>
+<th>馬主</th>
+<th>コメント</th>
+</tr>
+
+<tr>
+<td class="rank">1</td>
+<td class="horse">ゴールデンオーク</td>
+<td class="sire">ロゴタイプ</td>
+<td class="dam">スタートアップ</td>
+<td class="trainer">池江泰寿</td>
+<td class="owner">長谷川祐司</td>
+<td class="comment">セレクトセール2024当歳部門で文句なし1番評価！この馬で皐月賞を獲りたい！</td>
+</tr>
+
+<tr>
+<td class="rank">2</td>
+<td class="horse">キューティーボンド</td>
+<td class="sire">サートゥルナーリア</td>
+<td class="dam">コーステッド</td>
+<td class="trainer">福永祐一</td>
+<td class="owner">藤田晋</td>
+<td class="comment">サートゥルナーリア産駒牝馬でミスプロ配合を2頭購入。</td>
+</tr>
+
+<tr>
+<td class="rank">3</td>
+<td class="horse">チェスティーノ</td>
+<td class="sire">エフフォーリア</td>
+<td class="dam">チェッキーノ</td>
+<td class="trainer">鹿戸雄一</td>
+<td class="owner">サンデーR</td>
+<td class="comment">府中2400mに相応しい配合。秋華賞1・2着の弟妹。</td>
+</tr>
+
+<tr>
+<td class="rank">4</td>
+<td class="horse">タイセイ○○</td>
+<td class="sire">コントレイル</td>
+<td class="dam">レディオブキャメロット</td>
+<td class="trainer">―</td>
+<td class="owner">田中成奉</td>
+<td class="comment">モンジューの血。タイトルホルダー型の逃げ馬期待。</td>
+</tr>
+
+<tr>
+<td class="rank">7</td>
+<td class="horse">エルゴスフィア</td>
+<td class="sire">Baaeed</td>
+<td class="dam">Tranquil Star</td>
+<td class="trainer">中内田充正</td>
+<td class="owner">サンデーR</td>
+<td class="comment">シュネルマイスターやマッドクールを超える制圧を期待。</td>
+</tr>
+
+<tr>
+<td class="rank">10</td>
+<td class="horse">タクティシアン</td>
+<td class="sire">サリオス</td>
+<td class="dam">モルジアナ</td>
+<td class="trainer">森一誠</td>
+<td class="owner">シルクR</td>
+<td class="comment">馬体は完全にサリオス。マイル〜2000m適性。</td>
+</tr>
+
+<tr>
+<td class="rank">18</td>
+<td class="horse">ウィンターブリーズ</td>
+<td class="sire">ホットロッドチャーリー</td>
+<td class="dam">アイスパステル</td>
+<td class="trainer">田中博康</td>
+<td class="owner">TNレーシング</td>
+<td class="comment">府中2400mターゲット。</td>
+</tr>
+
+<tr>
+<td class="rank">29</td>
+<td class="horse">ブラスバンド</td>
+<td class="sire">レイデオロ</td>
+<td class="dam">ポールネイロン</td>
+<td class="trainer">前川恭子</td>
+<td class="owner">ノースヒルズ</td>
+<td class="comment">ダート中距離でフォーエバーヤング級を期待。</td>
+</tr>
+
+<tr>
+<td class="rank">30</td>
+<td class="horse">（仮）タイエンペラー</td>
+<td class="sire">Frankel</td>
+<td class="dam">Mangoustine</td>
+<td class="trainer">矢作芳人</td>
+<td class="owner">藤田晋</td>
+<td class="comment">ダービー・凱旋門・豪州大レース狙う世界血統。</td>
+</tr>
+
+</table>
+
+</body>
+</html>
